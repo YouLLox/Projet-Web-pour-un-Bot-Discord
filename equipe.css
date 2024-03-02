@@ -1,0 +1,398 @@
+@font-face {
+    font-family: "Ruda Black";
+    src: url('/fonts/Ruda-Black.ttf');
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Clear Sans Regular";
+    src: url("fonts/ClearSans-Regular.ttf");
+}
+
+html {
+    cursor: url("images/curseur.png"), default;
+}
+
+button {
+    cursor: url("images/curseur2.png"), default;
+}
+
+
+a {
+    cursor: url("images/curseur2.png"), default;
+}
+
+body {
+    background-color: #202020;
+}
+
+hr.barre {
+    margin: 0;
+    border: none;
+    width: 100%;
+    height: 6%;
+    background: linear-gradient(to bottom, #151515, #292930 210%);
+    top: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    width: 2.5%;
+    z-index: 1;
+    position: absolute;
+    left: 1%;
+}
+
+.ltext {
+    font-family: "Ruda Black";
+    font-size: 200%;
+    z-index: 1;
+    position: absolute;
+    left: 4.5%;
+    top: 1%;
+}
+
+.logoa {
+    cursor: url("images/curseur.png"), default;
+    z-index: 1;
+}
+
+.ltext1 {
+    color: #28A3FF;
+    z-index: 1;
+}
+
+.ltext2 {
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.commandestxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 1;
+    text-decoration: none;
+    position: absolute;
+    left: 17%;
+    top: 2%;
+}
+
+
+.premiumtxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 25.3%;
+    top: 2%;
+}
+
+.nouveautestxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 32%;
+    top: 2%;
+}
+
+.statuttxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+}
+
+.supporttxt {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    left: 46%;
+    top: 2%;
+}
+
+button.discordbutton {
+    width: 7%;
+    height: 4%;
+    border: 3px solid #2081FF;
+    border-radius: 45px;
+    transition: all 0.3s;
+    background: #151515;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: "Ruda Black";
+    color: white;
+    position: absolute;
+    z-index: 1;
+    left: 79.3%;
+    top: 1%;
+}
+
+button.discordbutton:hover {
+    transform: translateY(-5px);
+}
+
+button.addbot {
+    width: 7%;
+    height: 4%;
+    border: 3px solid #2081FF;
+    border-radius: 45px;
+    transition: all 0.3s;
+    background: #2081FF;
+    font-size: 1.2em;
+    font-weight: 550;
+    font-family: "Ruda Black";
+    color: white;
+    position: absolute;
+    z-index: 1;
+    left: 88%;
+    top: 1%;
+}
+
+button.addbot:hover {
+    transform: translateY(-5px);
+}
+
+.prime {
+    z-index: 1;
+    position: absolute;
+    left: 24.2%;
+    top: 2%;
+}
+
+.frbutton {
+    z-index: 1;
+    transition: all 0.3s;
+    position: absolute;
+    top: 1.3%;
+    left: 96.5%;
+}
+
+.frbutton:hover {
+    transform: translateY(-5px);
+}
+
+hr.barreend1 {
+    margin: 0%;
+    background-color: #161515;
+    border: none;
+    width: 100%;
+    height: 33%;
+    position: absolute;
+    top: 290%;
+    left: 0%;
+    right: 0%;
+
+}
+
+.logopage2 {
+    width: 15%;
+    position: absolute;
+    z-index: 2;
+    top: 293.5%;
+    margin-left: 10%;
+}
+
+ul.ulpage2 {
+    color: white;
+    font-family: "Clear Sans Regular";
+    font-size: 130%;
+}
+
+h3.gustavebotfr {
+    font-size: 230%;
+    color: #28a3ff;
+    font-family: "Ruda Black";
+}
+
+h3.communauté {
+    font-size: 230%;
+    color: #28a3ff;
+    font-family: "Ruda Black";
+}
+
+h3.join {
+    font-size: 230%;
+    color: #28a3ff;
+    font-family: "Ruda Black";
+}
+
+.liste1 {
+    position: absolute;
+    top: 293%;
+    margin-left: 35%;
+}
+
+.liste2 {
+    position: absolute;
+    top: 293%;
+    margin-left: 55%;
+}
+
+.liste3 {
+    position: absolute;
+    top: 293%;
+    margin-left: 75%;
+}
+
+.rectangle {
+    width: 300px;
+    height: 600px;
+    border-radius: 25px;
+    background: #343434;
+    position: absolute;
+    top: 20%;
+    left: 33%;
+}
+
+.rectangle1 {
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    background: #343434;
+    position: absolute;
+    top: 20%;
+    left: 52%;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 7px solid #28a3ff;
+    position: absolute;
+    top: 15%;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.youlloximg {
+    border-radius: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
+h1.youlloxname {
+    color: white;
+    font-size: 160%;
+    font-family: "Ruda Black";
+    transition: all 0.3s;
+    position: absolute;
+    top: 52%;
+}
+h1.youlloxname:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    background-color: #202020;
+    padding: 7px;
+    display: inline-block;
+}
+h1.sorenname {
+    color: white;
+    font-size: 160%;
+    transition: all 0.3s;
+    font-family: "Ruda Black";
+    position: absolute;
+    top: 52%;
+}
+h1.sorenname:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    background-color: #202020;
+    padding: 7px;
+    display: inline-block;
+}
+p.youlloxrank {
+    border-radius: 7px;
+    font-family: "Roboto Bold";
+    font-size: 130%;
+    color: white;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    background-color: #cb393d;
+    padding: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 63%;
+}
+p.youlloxrank:hover {
+    transform: scale(1.05);
+}
+p.youlloxrank1 {
+    border-radius: 7px;
+    font-family: "Roboto Bold";
+    color: white;
+    font-size: 130%;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    background-color: #2c5fe9;
+    padding: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 72%;
+}
+p.youlloxrank1:hover {
+    transform: scale(1.05);
+}
+p.youlloxrank2 {
+    border-radius: 7px;
+    font-family: "Roboto Bold";
+    color: white;
+    font-size: 130%;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    background-color: #4cd37a;
+    padding: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 81%;
+}
+p.youlloxrank2:hover {
+    transform: scale(1.05);
+}
+p.sorenrank {
+    border-radius: 7px;
+    font-family: "Roboto Bold";
+    color: white;
+    font-size: 130%;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+    background-color: #4cd37a;
+    padding: 7px;
+    display: inline-block;
+    position: absolute;
+    top: 63%;
+}
+p.sorenrank:hover {
+    transform: scale(1.05);
+}
+.sorenimg {
+    border-radius: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+}
